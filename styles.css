@@ -1,22 +1,45 @@
 * {
-    border: 5px solid blue;
+    border: 2px solid rgb(0, 0, 0);
+    text-align: center;
 }
 
 body {
     display: flex;
     flex-direction: column;
     min-height: 100vh;
-}
-
-body > * {
-    flex: 1;
+    justify-content: space-between;
 }
 
 main {
     display: flex;
     flex-direction: column;
+    flex: 1;
 }
 
 main > * {
     flex: 1;
+}
+
+header {
+    margin: 0px;
+    padding: 0px;
+    height: 50px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+ul {
+    display: flex;
+    justify-content: space-around;
+    margin: 0px;
+    padding: 0px;
+}
+
+li {
+    list-style: none;
+}
+
+footer {
+    height: 50px;
 }
