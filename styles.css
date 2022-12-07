@@ -3,6 +3,15 @@
     text-align: center;
 }
 
+header,
+[class="sec-1"],
+[class="sec-2"],
+[class="sec-3"],
+[class="sec-4"] {
+    padding-left: 50px;
+    padding-right: 50px;
+}
+
 body {
     display: flex;
     flex-direction: column;
@@ -23,7 +32,6 @@ main > * {
 
 header {
     margin: 0px;
-    padding: 0px;
     height: 50px;
     display: flex;
     justify-content: space-between;
@@ -89,6 +97,26 @@ li {
     text-align: right;
 }
 
+[class="sec-4"] {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.sec-4.content {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    background-color: blue;
+    color: white;
+    width: 499px;
+    height: 100px;
+}
+
+
 footer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
     height: 50px;
 }
