@@ -66,13 +66,28 @@ li {
     flex-direction: column;
     align-items: center;
     justify-content: space-around;
-    background-color: gray;
+    background-color: rgb(65, 195, 218);
 }
 
 .sec-2.content-bottom {
     display: flex;
 }
 
+.sec-3 {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    background-color: grey;
+}
+
+.quote {
+    text-align: left;
+    padding-right: 30px;
+}
+
+.quote-origin {
+    text-align: right;
+}
 
 footer {
     height: 50px;
